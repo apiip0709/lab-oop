@@ -1,9 +1,9 @@
-# Lab-Pbo-J
-Repository tempat pengumpulan tugas untuk Praktikan Asistensi J Lab OOP Sistem Informasi 2022
+# Lab-OOP
+Repository tempat pengumpulan tugas untuk Praktikan Lab OOP Sistem Informasi 2022
 
 ## Aturan Pengumpulan
 **Note:**  
-_Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruksi yang ada dalam tanda < > tersebut. Contohnya `mkdir <NIM>` menjadi `mkdir H071191002`_
+_Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruksi yang ada dalam tanda < > tersebut. Contohnya `mkdir <NIM>` menjadi `mkdir H071191049`_
 - Silahkan fork repositori ini
 - Lakukan clone terhadap hasil fork repository ini ke komputer kalian
   ```
@@ -23,18 +23,18 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   mkdir <NIM>
   ```
 - Di dalam folder NIM kalian buat folder dengan nama "Pertemuan_<_no_pertemuan_>" tanpa tanda kutip. contoh: Pertemuan_1
-- Di dalam folder pertemuan tersebut, kalian menambahkan file tugas praktikum yang telah kalian kerjakan dengan format nama file "Assignment_<_no pertemuan_>_<_no_soal_>.java" tanpa tanda kutip. Contoh: Assignment_1_1.java
+- Di dalam folder pertemuan tersebut, kalian menambahkan file tugas praktikum yang telah kalian kerjakan dengan format nama file "No<_no_soal_>.java" tanpa tanda kutip. Contoh: No1.java
 - Perhatikan bahwa disetiap filenya kalian harus menambahkan packagenya di awal file tersebut. Dimana nama package nantinya harus sesuai dengan folder dimana file tersebut berada di dalma folder `src`.
 Contoh:
 ```
-package H071191002.Pertemuan_1
+package H071191049.Pertemuan_1
 
 public class Main{
   ....
   ...
 }
 ```
-berarti file di atas berada di folder `src/H071191002/Pertemuan_1`. Untuk contoh detailnya bisa dilihat di file `src/H071191002/Pertemuan_1/Main.java` dan `src/H071191002/Pertemuan_1/my_package/Person.java`
+berarti file di atas berada di folder `src/H071191049/Pertemuan_1`. Untuk contoh detailnya bisa dilihat di file `src/H071191049/Pertemuan_1/Main.java` dan `src/H071191049/Pertemuan_1/my_package/Person.java`
 - Setelah semua file tugas telah diselesaikan dan telah diasistensikan lakukan perintah berikut
   ```
   git add .
