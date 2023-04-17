@@ -11,7 +11,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
 - Pindah ke repositori hasil clone dengan perintah berikut
   ```
-  cd Lab-Pbo-J
+  cd Lab-OOP
   ```
 - Pindah ke branch NIM kalian serta gunakan branch tersebut untuk menyimpan kode dari soal yang dikerjakan
   ```
