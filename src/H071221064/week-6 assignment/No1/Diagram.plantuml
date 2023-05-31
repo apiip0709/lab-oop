@@ -1,0 +1,51 @@
+@startuml diagram lab tugas 6
+
+Moveable <|-- Car
+Moveable <|-- Dog
+Moveable <|-- Smartphone
+
+Dog <|-- Pitbull
+Dog <|-- SiberianHusky
+Dog <|-- Bulldog
+Dog <|-- GermanShepherd
+
+class Moveable{
+    + move() : void
+}
+
+class Dog{
+    {static} # position : int
+    {static} # averageLength : int
+    + move() : void
+    + describe() : void
+} 
+class Pitbull{
+    + move() : void
+    + describe() : void
+}
+class SiberianHusky{
+    + move() : void
+    + describe() : void
+}
+class Bulldog{
+    + move() : void
+    + describe() : void
+}
+class GermanShepherd{
+    + move() : void
+    + describe() : void
+}
+
+class Smartphone{
+    {static} # price : int
+    {static} # brand : String
+    + move() : void
+}
+
+class Car{
+    {static} # totalForwardGear : int
+    {static} # color : String
+    {static} # maxSpeed : int
+    + move() : void
+}
+@enduml
